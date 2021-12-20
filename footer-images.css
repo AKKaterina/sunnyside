@@ -1,0 +1,15 @@
+.footer-images {
+  display: flex;
+}
+
+.image {
+  height: 300px;
+  width: 25%;
+  margin: 0 0;
+}
+.foot {
+  height: 400px;
+  padding: 0 0;
+  margin: 0 0;
+  width: 100%;
+}

@@ -1,0 +1,50 @@
+/* FLEXING OF DIVS */
+.pair {
+  display: flex;
+}
+
+/* НАСТРОЙКИ ЦЕЛОГО ТЕКСТА CHERRY */
+.cherry-text {
+  background-image: url("../images/desktop/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 600px;
+  color: #1f5249;
+  text-align: center;
+  padding-top: 350px;
+}
+
+/* НАСТРОЙКИ ЦЕЛОГО ТЕКСТА MANDARIN */
+.mandarin-text {
+  background-image: url("../images/desktop/image-photography.jpg");
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 600px;
+  color: #13536c;
+  text-align: center;
+  padding-top: 350px;
+}
+
+/* HEADLINES*/
+.head3 {
+  font-size: 30px;
+  /* margin: 0 0;
+  padding: 10% 0;
+  padding-top: 50%; */
+}
+
+/*PARAGRAPHS*/
+
+.cherry {
+  font-size: 15px;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.mandarin {
+  font-size: 15px;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}

@@ -1,0 +1,14 @@
+body {
+  margin: 0px 0px;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  position: relative;
+  text-align: center;
+}

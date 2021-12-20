@@ -1,0 +1,57 @@
+.clients {
+  background-color: #fffbf8;
+  height: 750px;
+}
+
+/* РАЗПОЛОЖЕНИЕ КАЖДОГО КЛИЕНТА В FLEX ЛИНИЮ */
+.clients-1 {
+  display: flex;
+  /* justify-content: space-around; */
+  margin: 0 8%;
+}
+
+/* СКОЛЬКО ЗАНИМАЕТ КАЖДЫЙ КЛИЕНТ */
+.client {
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 33.3%;
+}
+
+/* ЗАГОЛОВОК */
+.head-client {
+  color: #aca8a5;
+  text-align: center;
+  padding-top: 150px;
+  margin: 0 0;
+}
+
+/*НАСТРОЙКИ КАРТИНОК */
+.img {
+  border-radius: 50%;
+  height: 180px;
+  width: 80px;
+}
+
+/* CITATE */
+.citate {
+  font-size: 20px;
+  color: #192534;
+  font-weight: normal;
+}
+
+/* NAME */
+.name {
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #192534;
+}
+
+/* PROFESSION */
+.profession {
+  padding-top: 20px;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #192534;
+}

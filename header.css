@@ -1,0 +1,63 @@
+/* ФОН */
+#header {
+  background-image: url("../images/desktop/image-header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+  color: white;
+  padding: 2% 5%;
+}
+
+/* НАВИГАЦИЯ ЦЕЛЫЙ ВЕРХ*/
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* SUNNYSIDE */
+p {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* ЗАГОЛОВОК */
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 45px;
+  padding: 50px 0;
+}
+
+/* СТРЕЛКА */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0;
+}
+
+/* РАСПОЛОЖЕНИЕ КНОПОК */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  min-width: 300px;
+}
+.nav-menu {
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.nav-menu:hover {
+  color: black;
+  background-color: #6ecefe;
+}
+/* КОНТАКТ КНОПКА */
+.active {
+  color: black;
+  background-color: white;
+}

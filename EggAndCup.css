@@ -1,0 +1,74 @@
+/* общее у заглавий */
+h2 {
+  color: #282e3c;
+  font-family: "Fraunces", serif;
+  font-size: 50px;
+  margin: 0;
+}
+
+/* расположение текстов */
+#text {
+  margin: auto;
+  width: 50%;
+}
+/* стиль целого текста */
+
+/* ссылки LEARN MORE */
+a {
+  text-decoration: none;
+  color: #282e3c;
+  font-weight: bold;
+}
+.yellow:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #ffd302;
+}
+.red:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #ff7163;
+}
+
+/* картинка яйца */
+.egg {
+  background-image: url("../images/desktop/image-transform.jpg");
+  background-position: 100% 0;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 600px;
+  margin: auto 0;
+}
+
+/* картинка чашки */
+.cup {
+  background-image: url("../images/desktop/image-stand-out.jpg");
+  background-position: 0 100%;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 600px;
+  margin: auto 0;
+}
+
+/* настройки текста с яйцом */
+#text.h2egg {
+  text-align: left;
+  width: 50%;
+  margin: auto 0;
+  padding: 0 5%;
+}
+
+/* настройки текста с чашкой */
+#text.h2cup {
+  text-align: left;
+  margin-left: 50%;
+  padding: 0 5%;
+}
+
+/* стиль параграфов */
+.text {
+  color: #87858f;
+  text-align: left;
+  font-size: 18px;
+  margin: 35px 0;
+}
